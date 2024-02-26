@@ -33,7 +33,7 @@ const settings = definePluginSettings({
             try {
                 JSON.parse(value);
             } catch {
-                return "The value should be a valid json-formatted string. If you need help making one, "
+                return "The value should be a valid json-formatted string. If you need help making one, go to https://cocfire.xyz/page/stuff/jsonformattedstringmaker"
             }
             return true;
         }
